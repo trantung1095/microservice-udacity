@@ -33,7 +33,7 @@ services:
       AWS_PROFILE: $AWS_PROFILE
       AWS_BUCKET: $AWS_BUCKET
       JWT_SECRET: $JWT_SECRET
-      URL: $URL
+      URL: "http://a596f183c54e34263b74d33d813cbc49-772849918.us-east-1.elb.amazonaws.com/"
   frontend:
     image: udagram-frontend:local
     ports:
