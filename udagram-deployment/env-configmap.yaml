@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: udagram-s3-microservice
+  AWS_BUCKET: refactor-microservices
   AWS_PROFILE: eb-cli
   AWS_REGION: us-east-1
   JWT_SECRET: testing
   POSTGRES_DB: postgres
-  POSTGRES_HOST: cdr.ccnzpd7ycngs.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100
+  POSTGRES_HOST: microservicedb.cai1ezmsmoki.us-east-1.rds.amazonaws.com
+  URL: http://a596f183c54e34263b74d33d813cbc49-772849918.us-east-1.elb.amazonaws.com:8100
 metadata:
   name: env-config
